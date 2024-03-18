@@ -7,4 +7,6 @@ import java.util.List;
 public interface PessoaGateway {
 
     Pessoa createPessoa(Pessoa pessoa);
+
+    Pessoa findByCpfCnpj(String cpfCnpj);
 }
